@@ -1,4 +1,4 @@
-export const NUMBER_TO_WORD_MAP = {
+export const NUMBER_TO_WORD_MAP: Record<string, string> = {
   '1': 'eins',
   '2': 'zwei',
   '3': 'drei',
@@ -31,3 +31,4 @@ export const NUMBER_TO_WORD_MAP = {
 
   '100': 'einhundert',
 };
+export const AND = 'und';
