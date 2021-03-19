@@ -57,6 +57,10 @@ module.exports = {
       },
     ],
 
+    // Prefer default import
+    'import/prefer-default-export': 'off',
+    'quote-props': 'off',
+
     // note you must disable the base rule as it can report incorrect errors
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': ['off'],
