@@ -3,7 +3,7 @@
     "target": "es5",
     "module": "esnext",
     "allowJs": false,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "strict": true,
     "noImplicitAny": true,
     "alwaysStrict": true,

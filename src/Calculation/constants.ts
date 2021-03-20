@@ -1,5 +1,5 @@
 export const NUMBER_TO_WORD_MAP: Record<string, string> = {
-  '1': 'eins',
+  '1': 'ein',
   '2': 'zwei',
   '3': 'drei',
   '4': 'vier',
