@@ -49,6 +49,16 @@
       "last 1 safari version"
     ]
   },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
