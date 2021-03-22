@@ -32,3 +32,5 @@ export const NUMBER_TO_WORD_MAP: Record<string, string> = {
   '100': 'einhundert',
 };
 export const AND = 'und';
+export const PLUS = '+';
+export const EQUALS = '=';

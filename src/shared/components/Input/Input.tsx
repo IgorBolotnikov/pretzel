@@ -1,5 +1,7 @@
 import React, { useCallback } from 'react';
 
+import './Input.sass';
+
 interface InputProps {
   type?: 'text' | 'email';
   value: string;
@@ -20,6 +22,7 @@ export const Input = ({
 
   return (
     <input
+      className="input"
       type={type}
       value={value}
       onChange={handleChange}

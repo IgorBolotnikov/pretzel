@@ -1,5 +1,5 @@
 import { NUMBER_TO_WORD_MAP } from 'src/Calculation/constants';
-import { numberToWord } from 'src/Calculation/helpers';
+import { getRandomNumber, numberToWord } from 'src/Calculation/helpers';
 
 type TestTuple = [number, string];
 
@@ -39,4 +39,15 @@ describe('numberToWord', () => {
   it('throws error for numbers of unsupported length', () => {
     expect(() => numberToWord(4000)).toThrowError(Error);
   });
+});
+
+test('getRandomNumber should generate valid whole numbers in the set range', () => {
+  const min = 1;
+  const max = 100;
+  for (let i = 0; i < 100; i += 1) {
+    const randomNumber = getRandomNumber(min, max);
+    expect(randomNumber).toBeLessThanOrEqual(max);
+    expect(randomNumber).toBeGreaterThanOrEqual(min);
+    expect(randomNumber - Math.floor(randomNumber)).toEqual(0);
+  }
 });
