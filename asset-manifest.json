@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pretzel/static/css/main.4f7a1591.chunk.css",
+    "main.js": "/pretzel/static/js/main.b8fc32b0.chunk.js",
+    "main.js.map": "/pretzel/static/js/main.b8fc32b0.chunk.js.map",
+    "runtime-main.js": "/pretzel/static/js/runtime-main.8b024456.js",
+    "runtime-main.js.map": "/pretzel/static/js/runtime-main.8b024456.js.map",
+    "static/js/2.2a7e098d.chunk.js": "/pretzel/static/js/2.2a7e098d.chunk.js",
+    "static/js/2.2a7e098d.chunk.js.map": "/pretzel/static/js/2.2a7e098d.chunk.js.map",
+    "static/js/3.069e2b2b.chunk.js": "/pretzel/static/js/3.069e2b2b.chunk.js",
+    "static/js/3.069e2b2b.chunk.js.map": "/pretzel/static/js/3.069e2b2b.chunk.js.map",
+    "index.html": "/pretzel/index.html",
+    "static/css/main.4f7a1591.chunk.css.map": "/pretzel/static/css/main.4f7a1591.chunk.css.map",
+    "static/js/2.2a7e098d.chunk.js.LICENSE.txt": "/pretzel/static/js/2.2a7e098d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b024456.js",
+    "static/js/2.2a7e098d.chunk.js",
+    "static/css/main.4f7a1591.chunk.css",
+    "static/js/main.b8fc32b0.chunk.js"
+  ]
+}
